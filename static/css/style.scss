@@ -13,7 +13,7 @@ $salmonOrange : #FC9471;
 
 .header{
     font-family: $poppins;
-    background-color: #7FFFD4;
+    background-color: #EDFBFF;
 }
 .header .navbar{
     display: flex;
@@ -39,8 +39,9 @@ $salmonOrange : #FC9471;
 .header .navbar .nav-list li a{
     text-decoration: none;
     margin: 0 22px;
-    font-size: 18px;
-    color: black;
+    font-size: 20px;
+    color: $oceanBlue;
+    font-weight: 500;
 }
 
 .header .header-wrapper{
@@ -52,7 +53,7 @@ $salmonOrange : #FC9471;
     text-align: center;
 }
 .header .header-wrapper .left-header h1{
-    color: $salmonOrange;
+    color: $oceanBlue;
     font-size: 45px;
     margin-bottom: 5px;
     word-spacing: 5px;
@@ -61,12 +62,15 @@ $salmonOrange : #FC9471;
     width: 400px;
     margin: auto;
     margin-top: 35px;
+
     
 }
 .header .header-wrapper .left-header .paragraph-wrapper p{
     text-align: start;
     line-height: 2rem;
     margin: auto;
+    font-size: 18px;
+
 }
 .header .header-wrapper .left-header form{
     margin-top: 45px;

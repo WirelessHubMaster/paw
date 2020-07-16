@@ -13,7 +13,7 @@ $salmonOrange : #FC9471;
 
 .header{
     font-family: $poppins;
-    background-color: #EDFBFF;
+    background-color: $lightCyan;
 }
 .header .navbar{
     display: flex;
@@ -37,10 +37,10 @@ $salmonOrange : #FC9471;
     list-style: none;
 }
 .header .navbar .nav-list li a{
+    color: black;
     text-decoration: none;
     margin: 0 22px;
     font-size: 20px;
-    color: $oceanBlue;
     font-weight: 500;
 }
 
@@ -53,7 +53,7 @@ $salmonOrange : #FC9471;
     text-align: center;
 }
 .header .header-wrapper .left-header h1{
-    color: $oceanBlue;
+    color: $salmonOrange;
     font-size: 45px;
     margin-bottom: 5px;
     word-spacing: 5px;

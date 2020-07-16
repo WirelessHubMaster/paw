@@ -8,7 +8,7 @@
 
 .header {
   font-family: "Poppins", sans-serif;
-  background-color: #EDFBFF;
+  background-color: #7FFFD4;
 }
 
 .header .navbar {
@@ -46,10 +46,10 @@
 }
 
 .header .navbar .nav-list li a {
+  color: black;
   text-decoration: none;
   margin: 0 22px;
   font-size: 20px;
-  color: #56DEED;
   font-weight: 500;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .header .header-wrapper .left-header h1 {
-  color: #56DEED;
+  color: #FC9471;
   font-size: 45px;
   margin-bottom: 5px;
   word-spacing: 5px;

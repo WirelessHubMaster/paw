@@ -56,6 +56,7 @@ $dimCyan : #EDFBFF;
     font-size: 20px;
     font-weight: 500;
 }
+
 .header{
     .navbar{
         .nav-list{
@@ -71,38 +72,39 @@ $dimCyan : #EDFBFF;
     }
 }
 
-.header .header-wrapper {
-    margin-top: 50px;
-    display: flex;
-}
-
-.header .header-wrapper .left-header {
-    width: 50%;
-    text-align: center;
-}
-
-.header .header-wrapper .left-header h1 {
-    color: $salmonOrange;
-    font-size: 45px;
-    margin-bottom: 5px;
-    word-spacing: 5px;
-}
-
-.header .header-wrapper .left-header .paragraph-wrapper {
-    width: 400px;
-    margin: auto;
-    margin-top: 35px;
-
-
-}
-
-.header .header-wrapper .left-header .paragraph-wrapper p {
-    text-align: start;
-    line-height: 2rem;
-    margin: auto;
-    font-size: 18px;
-
-}
+.header {
+    .header-wrapper {
+        margin-top: 50px;
+        display: flex;
+        .left-header{
+            width: 50%;
+            text-align: center;
+            .header-text{
+                width: 50%;
+                margin: auto;
+                text-align: start;
+                h1{
+                    color: $salmonOrange;
+                    font-size: 45px;
+                    margin-bottom: 5px;
+                    word-spacing: 5px;
+                }
+                .paragraph-wrapper{
+                    width: 400px;
+                    margin: auto;
+                    margin-top: 35px;
+                    p{
+                        text-align: start;
+                        line-height: 2rem;
+                        margin: auto;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+        
+        }
+    }
 
 .header .header-wrapper .left-header form {
     margin-top: 45px;
@@ -129,6 +131,36 @@ $dimCyan : #EDFBFF;
     font-size: 14px;
     padding: 14px 30px;
     border-radius: 30px;
+}
+
+.header .header-wrapper .left-header form .submit-btn:hover {
+    background-color: rgb(30, 107, 131);
+    transition: 0.4s;
+    color: white;
+}
+
+.header{
+    .header-wrapper{
+        .left-header{
+            .badges{
+                width: 100%;
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                a{
+                    img{
+                        width: 230px; 
+                        height: 90px;
+                    }
+                    .appstore{
+                        height: 93px;
+                    }
+
+                }    
+            }
+        }
+    }
+
 }
 
 .header .header-wrapper .right-header {
@@ -310,12 +342,22 @@ $dimCyan : #EDFBFF;
             .left-header{
                 width: 100%;
                 margin-bottom: 20px;
-                p{
-                    font-size: 12px;
+                .header-text{
+                    h1{
+                        text-align: center;
+                    }
+                    p{
+                        font-size: 12px;
+                        text-align: center;
+                    } 
+                    .paragraph-wrapper{
+                        p{
+                            text-align: justify;
+                        }
+                    }
                 }
-                .badges{
-                    flex-direction: column;
-                }
+                
+               
             }
         }
     }

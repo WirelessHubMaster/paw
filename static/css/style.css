@@ -259,6 +259,12 @@ ul {
 }
 
 @media (max-width: 1000px) {
+  .right-panel {
+    display: none;
+  }
+}
+
+@media (max-width: 1000px) {
   .header .navbar {
     margin: 0;
     padding: 0;

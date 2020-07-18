@@ -13,21 +13,21 @@ cross.addEventListener('click',()=>{
 
 document.addEventListener('scroll',(event)=>{
     let scroll = this.scrollY;
-    if(scroll<794 && scroll >= 0){
+    if(scroll<531 && scroll >= 0){
         circle[0].classList.add('active')
         circle[1].classList.remove('active')
         circle[2].classList.remove('active')
         circle[3].classList.remove('active')
         
     }
-    else if(scroll > 794 && scroll <= 1550){
+    else if(scroll > 531 && scroll <= 1034){
         circle[1].classList.add('active');
         circle[0].classList.remove('active')
         circle[2].classList.remove('active')
         circle[3].classList.remove('active')
 
     }   
-    else if(scroll > 1550 && scroll <= 1990){
+    else if(scroll > 1034 && scroll <= 1302){
         circle[2].classList.add('active');
         circle[1].classList.remove('active')
         circle[0].classList.remove('active')

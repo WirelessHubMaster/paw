@@ -5,38 +5,40 @@
   <meta charset="utf-8">
   <title>Pawparent</title>
   <!-- Google Fonts  -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <!-- Font awesome CDN -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/style.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/css/style.css">
 
 </head>
 
 <body>
 
-  <header class="header">
+  <header class="header" id="header">
     <nav class="navbar">
       <div class="logo">
         <img src="static/images/logo.png">
       </div>
-      <ul class="nav-list">
+      <ul class="nav-list" id="nav-list">
         <li><a href="">Home</a></li>
         <li><a href="">Key Features</a></li>
         <li><a href="">App Run Through</a></li>
         <li><a href="">Contact Us</a></li>
         <li><a href="">Reviews</a></li>
+        <i class="fa fa-times cross" id="cross"></i>
       </ul>
+      <div class="bars">
+        <i class="fa fa-bars" id="bars"></i>
+      </div>
     </nav>
 
     <div class="left-panel">
       <div class="left-panel-main">
         <ul class="left-panel_links">
-          <li class="left-panel_link"><a><img src="./static/images/facebook.png" alt="facebook icon" srcset=""></a></li>
-          <li class="left-panel_link"><a><img src="./static/images/twitter.png" alt="twitter icon" srcset=""></a></li>
-          <li class="left-panel_link"><a><img src="./static/images/youtube.png" alt="youtube icon" srcset=""></a></li>
-          <li class="left-panel_link"><a><img src="./static/images/insta.png" alt="insta icon" srcset=""></a></li>
+          <li class="left-panel_link"><a href="#"><img src="./static/images/facebook.png" alt="facebook icon" srcset=""></a></li>
+          <li class="left-panel_link">  <a href="#"><img src="./static/images/twitter.png" alt="twitter icon" srcset=""></a></li>
+          <li class="left-panel_link"><a href="#"><img src="./static/images/youtube.png" alt="youtube icon" srcset=""></a></li>
+          <li class="left-panel_link"><a href="#"><img src="./static/images/insta.png" alt="insta icon" srcset=""></a></li>
         </ul>
       </div>
     </div>
@@ -44,15 +46,14 @@
     <div class="right-panel">
       <div class="right-panel-main">
         <ul class="right-panel_links">
-          <li class="right-panel_link"><a>
-              <div class="circle active">
+          <li class="right-panel_link"><a href="#header">
+              <div class="circle">
                 <div class="inner-circle">
-
                 </div>
               </div>
             </a></li>
           <li class="right-panel_link">
-            <a>
+            <a href="#partner-program">
               <div class="circle">
                 <div class="inner-circle">
 
@@ -60,14 +61,14 @@
               </div>
             </a>
           </li>
-          <li class="right-panel_link"><a>
+          <li class="right-panel_link"><a href="#promotional-video" >
               <div class="circle">
                 <div class="inner-circle">
 
                 </div>
               </div>
             </a></li>
-          <li class="right-panel_link"><a>
+          <li class="right-panel_link"><a href="#press-review" >
               <div class="circle">
                 <div class="inner-circle">
 
@@ -100,13 +101,32 @@
       </div>
 
     </div>
-
-
   </header>
 
-  <section class="body">
-
+  <section class="partner-program" id="partner-program">
+    <div class="left-partner">
+      <img src="static/images/dog-img.png">
+    </div>
+    <div class="right-partner">
+      <h1>Partner Program</h1>
+      <p>Become a trusted seller.</p>
+      <div class="paragraph">
+        <p>
+          Through our partner program you will be able to be advertise your store as a trusted seller in front of customers through our App all for free!
+        </p>
+      </div>
+    </div>
   </section>
+
+  <section class="promotional-video" id="promotional-video" >
+    <h1>Promotional Video Goes here!!!</h1>
+
+  </section >
+
+<section class="press-review" >
+
+</section >
+
 
 
   <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>

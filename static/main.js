@@ -4,7 +4,6 @@ const navList = document.getElementById('nav-list');
 const circle = document.querySelectorAll('.circle');
 
 bars.addEventListener('click',()=>{
-    console.log('clickes')
     navList.classList.add('click')
 })
 
@@ -46,13 +45,12 @@ document.addEventListener('scroll',(event)=>{
 let index = 0;
 
 let sliderLinks = document.querySelectorAll('.slider_link');
-
 setInterval(() => {
     if(sliderLinks[index].classList.contains('fade')){
         sliderLinks[index].classList.remove('fade')
     }
-    index++;
     if(!sliderLinks[index].classList.contains('fade')){
         sliderLinks[index].classList.add('fade')
     }
 }, 3000)
+    

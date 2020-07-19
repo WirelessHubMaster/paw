@@ -273,12 +273,10 @@ $dimCyan : #EDFBFF;
         font-size: 50px;
     }
 }
-@media(max-width:1000px){
+@media(max-width:1000px) {
     .right-panel{
         display: none;
     }
-}
-@media(max-width:1000px) {
     .header{
         .navbar{
             margin: 0;

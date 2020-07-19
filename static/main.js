@@ -13,6 +13,7 @@ cross.addEventListener('click',()=>{
 
 document.addEventListener('scroll',(event)=>{
     let scroll = this.scrollY;
+    let startCarousel = false;
     if(scroll<531 && scroll >= 0){
         circle[0].classList.add('active')
         circle[1].classList.remove('active')
@@ -32,7 +33,6 @@ document.addEventListener('scroll',(event)=>{
         circle[1].classList.remove('active')
         circle[0].classList.remove('active')
         circle[3].classList.remove('active')
-
     }
     else{
         circle[3].classList.add('active');
@@ -40,5 +40,18 @@ document.addEventListener('scroll',(event)=>{
         circle[2].classList.remove('active')
         circle[0].classList.remove('active')
     }
-    
 });
+
+let index = 0;
+
+let sliderLinks = document.querySelectorAll('.slider_link');
+
+setInterval(() => {
+    if(sliderLinks[index].classList.contains('fade')){
+        sliderLinks[index].classList.remove('fade')
+    }
+    index++;
+    if(!sliderLinks[index].classList.contains('fade')){
+        sliderLinks[index].classList.add('fade')
+    }
+}, 3000)

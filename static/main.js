@@ -4,6 +4,7 @@ const navList = document.getElementById('nav-list');
 const circle = document.querySelectorAll('.circle');
 
 bars.addEventListener('click',()=>{
+    console.log('clickes')
     navList.classList.add('click')
 })
 

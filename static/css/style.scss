@@ -181,7 +181,7 @@ $dimCyan : #EDFBFF;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 10000;
     .left-panel-main {
         .left-panel_links {
             .left-panel_link {
@@ -210,7 +210,7 @@ $dimCyan : #EDFBFF;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 10000;
     .right-panel-main {
         .right-panel_links {
             .right-panel_link {
@@ -383,3 +383,5 @@ $dimCyan : #EDFBFF;
     }
 }
 
+@import 'main/press_review/press_review';
+@import 'footer/footer';

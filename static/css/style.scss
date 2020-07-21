@@ -19,21 +19,22 @@ $dimCyan : #EDFBFF;
 
 .header {
     font-family: $poppins;
-    background-color: $dimCyan;
-    padding-bottom: 30px;
+    background-color: #DDFBA9;
 }
 
 .header .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin: auto;
+    width: 100%;
+    height: 17vh;
+    background-color: #fff;
+    padding: 10px;  
 }
 
 .header .navbar .logo {
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
 }
 
 .header .navbar .logo img {
@@ -53,7 +54,7 @@ $dimCyan : #EDFBFF;
     color: black;
     text-decoration: none;
     margin: 0 22px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -74,7 +75,7 @@ $dimCyan : #EDFBFF;
 
 .header {
     .header-wrapper {
-        margin-top: 50px;
+        padding: 150px 0;
         display: flex;
         .left-header{
             width: 50%;
@@ -84,10 +85,12 @@ $dimCyan : #EDFBFF;
                 margin: auto;
                 text-align: start;
                 h1{
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: bolder;
+                    font-size: 50px;
+                    line-height: 97px;
                     color: $salmonOrange;
-                    font-size: 45px;
-                    margin-bottom: 5px;
-                    word-spacing: 5px;
                 }
                 .paragraph-wrapper{
                     width: 400px;
@@ -108,29 +111,43 @@ $dimCyan : #EDFBFF;
 
 .header .header-wrapper .left-header form {
     margin-top: 45px;
+    width: 50%;
+    margin: auto;
+    text-align: start;
+    p{
+        color: $salmonOrange;
+        margin-bottom: 19px;
+        text-align: start;
+        margin: 20px 0;
+        font-weight: bolder;
+        font-size: 18px;
+    }
 }
 
 .header .header-wrapper .left-header form .email {
-    border: none;
-    font-size: 18px;
+    width: 290px;
+    height: 43px;
     outline: none;
-    padding: 10px 15px;
-    border-bottom: 2px solid $oceanBlue;
-    border-radius: 20px;
-    width: 280px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    background: #FFFFFF;
     margin-right: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .header .header-wrapper .left-header form .submit-btn {
     border: none;
     cursor: pointer;
     outline: none;
-    background-color: white;
+    background-color: #4F4F4F;
     border: 1px solid;
-    border-color: $oceanBlue;
     font-size: 14px;
     padding: 14px 30px;
-    border-radius: 30px;
+    border-radius: 5px;
+    color: white;
+
 }   
 
 .header .header-wrapper .left-header form .submit-btn:hover {
@@ -147,6 +164,7 @@ $dimCyan : #EDFBFF;
                 margin-top: 20px;
                 display: flex;
                 justify-content: center;
+                margin-left: 40px;
                 a{
                     img{
                         width: 230px; 
@@ -167,37 +185,6 @@ $dimCyan : #EDFBFF;
     width: 50%;
     text-align: center;
 }
-
-.left-panel {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    max-height: 14rem;
-    margin: auto;
-    left: 2rem;
-    background-color: orange;
-    padding: 1rem 0.25rem;
-    border-radius: 1.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10000;
-    .left-panel-main {
-        .left-panel_links {
-            .left-panel_link {
-                a{
-                    cursor: pointer;
-                    img {
-                        width: 40px;
-                        height: 40px;
-                        
-                    }
-                }
-            }
-        }
-    }
-}
-
 .right-panel {
     position: fixed;
     top: 0;
@@ -239,7 +226,7 @@ $dimCyan : #EDFBFF;
     background-color: $salmonOrange;
     padding: 90px 0;
     display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: $poppins;
     .left-partner{
         width: 50%;
         text-align: center;
@@ -250,7 +237,9 @@ $dimCyan : #EDFBFF;
         flex-direction: column;
         justify-content: center;
        h1{
-           font-size: 50px;
+           font-size: 45px;
+           font-weight: 700;
+           letter-spacing: 2px;
        }
        p{
            font-size: 22px;
@@ -265,7 +254,7 @@ $dimCyan : #EDFBFF;
     }
 }
 .promotional-video{
-    background-color: $dimCyan;
+    background-color: #7FFFD4;
     padding: 250px 0;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -273,113 +262,61 @@ $dimCyan : #EDFBFF;
         font-size: 50px;
     }
 }
-@media(max-width:1000px) {
-    .right-panel{
-        display: none;
-    }
-    .header{
-        .navbar{
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            position: relative;
-            .logo{
-                position: absolute;
-                top: 0;
-                left: 2rem;
-            }
-            .nav-list{
-                position: absolute;
-                z-index: 1;
-                flex-direction: column;
-                justify-content: space-evenly;
-                width: 100vw;
-                height: 100vh;
-                background-color: $lightCyan;
-                top: -2500px;
-                transition: 0.5s ease-in-out;
 
-                li{
-                    text-align: center;
-                    font-size: 30px;
-                    letter-spacing: 2px;
-                    a{
-                        color: $salmonOrange;
-                    }
-                }
-                .cross{
-                    display: block;
-                    position: absolute;
-                    top: 2.2rem;
-                    right: 3.5rem;
-                    font-size: 30px;
-                    color: $salmonOrange;
-                    cursor: pointer;
-                }
-            }
-            .bars{
-                display: block;
-                position: absolute;
-                cursor: pointer;
-                right:2.8rem;
-                top: 2.6rem;
-            }
-        
-        }
-        .nav-list.click{
-            top: 0;
-            position: relative;
-        }
-        .header-wrapper{
-            margin-top:200px ;
-            flex-direction: column-reverse;
-            .right-header{
-                margin-bottom: 50px;
-                width: 100%;
-            }
-            .left-header{
-                width: 100%;
-                margin-bottom: 20px;
-                .header-text{
-                    h1{
-                        text-align: center;
-                    }
-                    p{
-                        font-size: 12px;
-                        text-align: center;
-                    } 
-                    .paragraph-wrapper{
-                        p{
-                            text-align: justify;
-                        }
-                    }
-                }
-                
-               
-            }
-        }
+.press-review{
+    background-color: #56DEED;
+    padding: 150px 0;
+    font-family: $poppins;
+    h1{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        letter-spacing : 2px;
+        line-height: 55px;
+        text-align: center;
     }
-    .partner-program{
-        flex-direction: column;
-        .left-partner{
-            width: 100%;
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin-top: 90px;
+        .card{
+        width: 292px;
+        height: 377px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+        margin: 0 40px;
+        text-align: center;
+        padding: 15px 10px;
+        img{
+            margin-top: 30px;
+            width: 10%;
+            height: 8%;
         }
-        .right-partner{
-            width: 100%;
-            text-align: center;
-            h1{
-                margin-top: 30px;
-            }
-            p{
-                font-size: 18px;
-            }
-            .paragraph{
-                text-align: center;
-                margin: auto;
-            }
+        .text{
+            margin-top: 20px;
+            padding: 10px 30px;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: start;
+        }
         }
     }
 }
-
-@import 'main/press_review/press_review';
+.header{
+    .header-wrapper{
+        .left-header{
+            .header-text{
+                h1{
+                    font-size: 40px;
+                    
+                }
+            }
+           
+           
+        }
+    }
+}
+  
 @import 'footer/footer';

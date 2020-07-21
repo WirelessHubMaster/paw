@@ -9,14 +9,13 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/style.min.css">
+  <link rel="stylesheet" href="static/css/style.css">
 
 </head>
 
 <body>
 
   <header class="header" id="header">
-    
     <nav class="navbar">
       <div class="logo">
         <img src="static/images/logo.png">
@@ -37,22 +36,7 @@
       </div>
     </nav>
 
-    <div class="left-panel">
-      <div class="left-panel-main">
-        <ul class="left-panel_links">
-          <li class="left-panel_link"><a href="#"><img src="./static/images/facebook.png" alt="facebook icon"
-                srcset=""></a></li>
-          <li class="left-panel_link"> <a href="#"><img src="./static/images/twitter.png" alt="twitter icon"
-                srcset=""></a></li>
-          <li class="left-panel_link"><a href="#"><img src="./static/images/youtube.png" alt="youtube icon"
-                srcset=""></a></li>
-          <li class="left-panel_link"><a href="#"><img src="./static/images/insta.png" alt="insta icon" srcset=""></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="right-panel">
+    <!-- <div class="right-panel">
       <div class="right-panel-main">
         <ul class="right-panel_links">
           <li class="right-panel_link"><a href="#header">
@@ -86,7 +70,7 @@
             </a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <div class="header-wrapper">
       <div class="left-header">
@@ -101,8 +85,11 @@
           </div>
         </div>
         <form action="post">
-          <input type="text" class="email" name="email" placeholder="Email">
-          <button class="submit-btn">Get Updates</button>
+          <p>Enter email to learn more!</p>
+          <div class="form-wrapper">
+            <input type="text" class="email" name="email" placeholder="Email">
+            <button class="submit-btn">Get Updates</button>
+          </div>
         </form>
         <div class="badges">
           <a href=""><img class="googleplay" src="static/images/googleplay-badge.png"></a>
@@ -116,7 +103,7 @@
     </div>
   </header>
   <!-- Main -->
-  <main role="main">
+
     <section class="partner-program" id="partner-program">
       <div class="left-partner">
         <img src="static/images/partner_program.png">
@@ -139,146 +126,32 @@
     </section>
 
     <section class="press-review" id="press-review">
-      <div class="slider-container">
-        <div class="slider_link fade">
-          <div class="slider_link-main">
-            <div>
-              <h2>Press Review</h2>
-            </div>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div class="slider_link-content">
-                      <div>
-                        <div class="slider_link-rating">
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                        </div>
-                        <div>
-                          <h3>Robert Martins</h3>
-                          <p>April 5, 2020</p>
-                        </div>
-                        <div class="slider_link-content-main">
-                          “I'm a testimonial. Click to edit me and add text that says something nice about you and your
-                          services. Let your customers review you and tell their friends how great you are.”
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+      <h1>What Paw Parent are saying</h1>
+
+      <div class="cards">
+        <div class="card">
+          <img src="static/images/quotes.png">
+          <div class="text">
+            <p>I was able to meet new people and organize play dates together!</p>
+            <p>-Amri</p>
           </div>
         </div>
-        <div class="slider_link">
-          <div class="slider_link-main">
-            <div>
-              <h2>Press Review</h2>
-            </div>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div class="slider_link-content">
-                      <div>
-                        <div class="slider_link-rating">
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                        </div>
-                        <div>
-                          <h3>Maria Luck</h3>
-                          <p>April 5, 2020</p>
-                        </div>
-                        <div class="slider_link-content-main">
-                          “I'm a testimonial. Click to edit me and add text that says something nice about you and your
-                          services. Let your customers review you and tell their friends how great you are.”
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card">
+          <img src="static/images/quotes.png">
+          <div class="text">
+            <p>I loved using the beta version of the app and it was amazing! It allowed me to adopt Sandy from an amazing seller!</p>
+            <p>-Mandy</p>
           </div>
         </div>
-        <div class="slider_link">
-          <div class="slider_link-main">
-            <div>
-              <h2>Press Review</h2>
-            </div>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div class="slider_link-content">
-                      <div>
-                        <div class="slider_link-rating">
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                        </div>
-                        <div>
-                          <h3>Hotdog</h3>
-                          <p>April 5, 2020</p>
-                        </div>
-                        <div class="slider_link-content-main">
-                          “I'm a testimonial. Click to edit me and add text that says something nice about you and your
-                          services. Let your customers review you and tell their friends how great you are.”
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slider_link">
-          <div class="slider_link-main">
-            <div>
-              <h2>Press Review</h2>
-            </div>
-            <div>
-              <div>
-                <div>
-                  <div>
-                    <div class="slider_link-content">
-                      <div>
-                        <div class="slider_link-rating">
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                          <span class="fa fa-star"></span>
-                        </div>
-                        <div>
-                          <h3>Maria Sanders</h3>
-                          <p>April 5, 2020</p>
-                        </div>
-                        <div class="slider_link-content-main">
-                          “I'm a testimonial. Click to edit me and add text that says something nice about you and your
-                          services. Let your customers review you and tell their friends how great you are.”
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div class="card">
+        <img src="static/images/quotes.png">
+          <div class="text">
+            <p>This app is awesome! It helped me find Lucky and I love him so much.</p>
+            <p>-Robert</p>
           </div>
         </div>
       </div>
     </section>
-  </main>
   <!-- Main -->
   <!-- Footer-->
   <footer>

@@ -78,10 +78,10 @@ $dimCyan : #EDFBFF;
         padding: 150px 0;
         display: flex;
         .left-header{
-            width: 50%;
+            width: 70%;
             text-align: center;
             .header-text{
-                width: 50%;
+                width: 70%;
                 margin: auto;
                 text-align: start;
                 h1{
@@ -93,13 +93,14 @@ $dimCyan : #EDFBFF;
                     color: $salmonOrange;
                 }
                 .paragraph-wrapper{
-                    width: 400px;
+                    width: 100%;
                     margin: auto;
                     margin-top: 35px;
                     p{
                         text-align: start;
                         line-height: 2rem;
-                        margin: auto;
+                        width: 400px;
+                        // margin: auto;
                         font-size: 18px;
                     }
                 }
@@ -111,7 +112,7 @@ $dimCyan : #EDFBFF;
 
 .header .header-wrapper .left-header form {
     margin-top: 45px;
-    width: 50%;
+    width:70%;
     margin: auto;
     text-align: start;
     p{
@@ -161,10 +162,10 @@ $dimCyan : #EDFBFF;
         .left-header{
             .badges{
                 width: 100%;
+                // margin: auto;
                 margin-top: 20px;
                 display: flex;
-                justify-content: center;
-                margin-left: 40px;
+                
                 a{
                     img{
                         width: 230px; 
@@ -182,44 +183,8 @@ $dimCyan : #EDFBFF;
 }
 
 .header .header-wrapper .right-header {
-    width: 50%;
+    width: 30%;
     text-align: center;
-}
-.right-panel {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 2rem;
-    max-height: 14rem;
-    margin: auto;
-    padding: 1.2rem 0.35rem;
-    border-radius: 1.75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10000;
-    .right-panel-main {
-        .right-panel_links {
-            .right-panel_link {
-                cursor: pointer;
-                margin-bottom: 1rem;
-                .circle {
-                    width: 12px;
-                    height: 12px;
-                    background-color: transparent;
-                    border: 3px solid black;
-                    border-radius: 50%;
-                    .inner-circle {
-                        background-color: white;
-                    }
-                }
-
-                .circle.active{
-                    background-color: black;
-                }
-            }
-        }
-    }
 }
 
 .partner-program{
@@ -305,16 +270,25 @@ $dimCyan : #EDFBFF;
     }
 }
 .header{
+    .navbar{
+        height: 10vh;
+    }
     .header-wrapper{
         .left-header{
+            width: 60%;
             .header-text{
                 h1{
-                    font-size: 40px;
-                    
+                    font-size: 40px;       
                 }
             }
-           
-           
+            .badges{
+                margin-top: 20px!important;
+                width: 74%;
+                margin: auto;
+            }
+        }
+        .right-header{
+            width: 40%;
         }
     }
 }

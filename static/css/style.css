@@ -77,12 +77,12 @@ ul {
 }
 
 .header .header-wrapper .left-header {
-  width: 50%;
+  width: 70%;
   text-align: center;
 }
 
 .header .header-wrapper .left-header .header-text {
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: start;
 }
@@ -97,7 +97,7 @@ ul {
 }
 
 .header .header-wrapper .left-header .header-text .paragraph-wrapper {
-  width: 400px;
+  width: 100%;
   margin: auto;
   margin-top: 35px;
 }
@@ -105,13 +105,13 @@ ul {
 .header .header-wrapper .left-header .header-text .paragraph-wrapper p {
   text-align: start;
   line-height: 2rem;
-  margin: auto;
+  width: 400px;
   font-size: 18px;
 }
 
 .header .header-wrapper .left-header form {
   margin-top: 45px;
-  width: 50%;
+  width: 70%;
   margin: auto;
   text-align: start;
 }
@@ -164,10 +164,6 @@ ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-left: 40px;
 }
 
 .header .header-wrapper .left-header .badges a img {
@@ -180,50 +176,8 @@ ul {
 }
 
 .header .header-wrapper .right-header {
-  width: 50%;
+  width: 30%;
   text-align: center;
-}
-
-.right-panel {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  right: 2rem;
-  max-height: 14rem;
-  margin: auto;
-  padding: 1.2rem 0.35rem;
-  border-radius: 1.75rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  z-index: 10000;
-}
-
-.right-panel .right-panel-main .right-panel_links .right-panel_link {
-  cursor: pointer;
-  margin-bottom: 1rem;
-}
-
-.right-panel .right-panel-main .right-panel_links .right-panel_link .circle {
-  width: 12px;
-  height: 12px;
-  background-color: transparent;
-  border: 3px solid black;
-  border-radius: 50%;
-}
-
-.right-panel .right-panel-main .right-panel_links .right-panel_link .circle .inner-circle {
-  background-color: white;
-}
-
-.right-panel .right-panel-main .right-panel_links .right-panel_link .circle.active {
-  background-color: black;
 }
 
 .partner-program {
@@ -342,8 +296,26 @@ ul {
   text-align: start;
 }
 
+.header .navbar {
+  height: 10vh;
+}
+
+.header .header-wrapper .left-header {
+  width: 60%;
+}
+
 .header .header-wrapper .left-header .header-text h1 {
   font-size: 40px;
+}
+
+.header .header-wrapper .left-header .badges {
+  margin-top: 20px !important;
+  width: 74%;
+  margin: auto;
+}
+
+.header .header-wrapper .right-header {
+  width: 40%;
 }
 
 footer {

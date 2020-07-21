@@ -1,83 +1,102 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pawparent</title>
+    <!-- Google Fonts  -->
 
-<head>
-  <meta charset="utf-8">
-  <title>Pawparent</title>
-  <!-- Google Fonts  -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+  </head>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="static/css/style.css">
-
-</head>
-
-<body>
-
-  <header class="header" id="header">
-    <nav class="navbar">
-      <div class="logo">
-        <img src="static/images/logo.png">
-      </div>
-      <ul class="nav-list" id="nav-list">
-        <li><a href="">Home</a></li>
-        <li><a href="">Key Features</a></li>
-        <li><a href="">App Run Through</a></li>
-        <li><a href="">Reviews</a></li>
-        <li><a href="">Contact Us</a></li>
-        <div id="cross">
-          <i  class="fa fa-times cross"></i>
+  <body>
+    <header class="header" id="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="static/images/logo.png" />
         </div>
-      </ul>
-      
-      <div class="bars" id="bars">
-        <i class="fa fa-bars" ></i>
-      </div>
-    </nav>
-    <div class="header-wrapper">
-      <div class="left-header">
-        <div class="header-text">
-          <h1>Paw Parent</h1>
-          <p>A Place To Connect And Adopt Paws</p>
-          <div class="paragraph-wrapper">
-            <p>
-              A community of paws from around the world all in one place! OR if you are ready to adopt a paw then do it
-              directly from trusted sellers in your area on our app!
-            </p>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Key Features</a></li>
+          <li><a href="">App Run Through</a></li>
+          <li><a href="">Reviews</a></li>
+          <li><a href="">Contact Us</a></li>
+          <div id="cross">
+            <i class="fa fa-times cross"></i>
+          </div>
+        </ul>
+
+        <div class="bars" id="bars">
+          <i class="fa fa-bars"></i>
+        </div>
+      </nav>
+      <div class="header-wrapper">
+        <div class="left-header">
+          <div class="header-text">
+            <h1>Paw Parent</h1>
+            <p>A PLACE TO CONNECT AND ADOPT PAWS</p>
+            <div class="paragraph-wrapper">
+              <p>
+                A community of paws from around the world all in one place! OR
+                if you are ready to adopt a paw then do it directly from trusted
+                sellers in your area on our app!
+              </p>
+            </div>
+          </div>
+          <form action="post">
+            <p>Enter email to learn more!</p>
+            <div class="form-wrapper">
+              <input
+                type="text"
+                class="email"
+                name="email"
+                placeholder="Email"
+              />
+              <button class="submit-btn">Sign Up</button>
+            </div>
+          </form>
+          <div class="badges">
+            <a href=""
+              ><img
+                class="appstore"
+                src="https://images.squarespace-cdn.com/content/v1/5cb86c018dfc8ca29e4e4b2b/1585767173618-DQWYTZI9LXP26S4FDUWO/ke17ZwdGBToddI8pDm48kGwI2q9ay8oxpMKuvrskYZlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxM6CcmncPhVP9DiOF3uuho_BRHe4QOKd0MUCigtS_gvOZdmv0Ma8epo3jNOOsisKY/app-store-badge.png"
+            /></a>
+            <a href=""
+              ><img class="googleplay" src="static/images/googleplay-badge.png"
+            /></a>
           </div>
         </div>
-        <form action="post">
-          <p>Enter email to learn more!</p>
-          <div class="form-wrapper">
-            <input type="text" class="email" name="email" placeholder="Email">
-            <button class="submit-btn">Sign Up</button>
-          </div>
-        </form>
-        <div class="badges">
-          <a href=""><img class="googleplay" src="static/images/googleplay-badge.png"></a>
-          <a href=""><img class="appstore" src="https://images.squarespace-cdn.com/content/v1/5cb86c018dfc8ca29e4e4b2b/1585767173618-DQWYTZI9LXP26S4FDUWO/ke17ZwdGBToddI8pDm48kGwI2q9ay8oxpMKuvrskYZlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxM6CcmncPhVP9DiOF3uuho_BRHe4QOKd0MUCigtS_gvOZdmv0Ma8epo3jNOOsisKY/app-store-badge.png"></a>
+        <div class="right-header">
+          <img src="static/images/dog-img.png" />
         </div>
       </div>
-      <div class="right-header">
-        <img src="static/images/dog-img.png">
-      </div>
-
-    </div>
-  </header>
+    </header>
 
     <section class="partner-program" id="partner-program">
       <div class="left-partner">
-        <img src="static/images/partner_program.png">
+        <img src="static/images/partner_program.png" />
       </div>
       <div class="right-partner">
         <h1>Partner Program</h1>
-        <p>Become a trusted seller.</p>
+        <p>BECOME A TRUSTED SELLER.</p>
         <div class="paragraph">
           <p>
-            Through our partner program you will be able to be advertise your store as a trusted seller in front of
-            customers through our App all for free!
+            Through our partner program you will be able to be advertise your
+            store as a trusted seller in front of customers through our App all
+            for free!
           </p>
         </div>
       </div>
@@ -85,7 +104,6 @@
 
     <section class="promotional-video" id="promotional-video">
       <h1>Promotional Video Goes here!!!</h1>
-
     </section>
 
     <section class="press-review" id="press-review">
@@ -93,53 +111,60 @@
 
       <div class="cards">
         <div class="card">
-          <img src="static/images/quotes.png">
+          <img src="static/images/quotes.png" />
           <div class="text">
-            <p>I was able to meet new people and organize play dates together!</p>
+            <p>
+              I was able to meet new people and organize play dates together!
+            </p>
             <p>-Amri</p>
           </div>
         </div>
         <div class="card">
-          <img src="static/images/quotes.png">
+          <img src="static/images/quotes.png" />
           <div class="text">
-            <p>I loved using the beta version of the app and it was amazing! It allowed me to adopt Sandy from an amazing seller!</p>
+            <p>
+              I loved using the beta version of the app and it was amazing! It
+              allowed me to adopt Sandy from an amazing seller!
+            </p>
             <p>-Mandy</p>
           </div>
         </div>
         <div class="card">
-        <img src="static/images/quotes.png">
+          <img src="static/images/quotes.png" />
           <div class="text">
-            <p>This app is awesome! It helped me find Lucky and I love him so much.</p>
+            <p>
+              This app is awesome! It helped me find Lucky and I love him so
+              much.
+            </p>
             <p>-Robert</p>
           </div>
         </div>
       </div>
     </section>
-  <!-- Main -->
-  <!-- Footer-->
-  <footer>
-    <div>
+    <!-- Main -->
+    <!-- Footer-->
+    <footer>
+      <div></div>
+      <div class="badges">
+        <a href=""
+          ><img class="googleplay" src="static/images/googleplay-badge.png"
+        /></a>
+        <a href=""
+          ><img
+            class="appstore"
+            src="https://images.squarespace-cdn.com/content/v1/5cb86c018dfc8ca29e4e4b2b/1585767173618-DQWYTZI9LXP26S4FDUWO/ke17ZwdGBToddI8pDm48kGwI2q9ay8oxpMKuvrskYZlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxM6CcmncPhVP9DiOF3uuho_BRHe4QOKd0MUCigtS_gvOZdmv0Ma8epo3jNOOsisKY/app-store-badge.png"
+        /></a>
+      </div>
+      <div>
+        <p>Website by Pet Pawrent, Gifs By Pet Barn</p>
+      </div>
+      <div class="dog-jump"></div>
+    </footer>
+    <!-- Footer-->
 
-    </div>
-    <div class="badges">
-      <a href=""><img class="googleplay" src="static/images/googleplay-badge.png"></a>
-      <a href=""><img class="appstore" src="https://images.squarespace-cdn.com/content/v1/5cb86c018dfc8ca29e4e4b2b/1585767173618-DQWYTZI9LXP26S4FDUWO/ke17ZwdGBToddI8pDm48kGwI2q9ay8oxpMKuvrskYZlZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZUJFbgE-7XRK3dMEBRBhUpxM6CcmncPhVP9DiOF3uuho_BRHe4QOKd0MUCigtS_gvOZdmv0Ma8epo3jNOOsisKY/app-store-badge.png"></a>
-    </div>
-    <div>
-      <p>Website by Pet Pawrent, Gifs By Pet Barn</p>
-    </div>
-    <div class="dog-jump">
-      
-    </div>
-  </footer>
-  <!-- Footer-->
-
-
-
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-  <script src="static/main.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
-  <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
-</body>
-
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+    <script src="static/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+    <!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  </body>
 </html>

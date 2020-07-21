@@ -12,7 +12,7 @@ ul {
 
 .header {
   font-family: "Poppins", sans-serif;
-  background-color: #DDFBA9;
+  background-color: #ddfba9;
 }
 
 .header .navbar {
@@ -65,7 +65,7 @@ ul {
 
 .header .navbar .bars {
   font-size: 30px;
-  color: #FC9471;
+  color: #fc9471;
   display: none;
 }
 
@@ -93,7 +93,7 @@ ul {
   font-weight: bolder;
   font-size: 50px;
   line-height: 97px;
-  color: #FC9471;
+  color: #fc9471;
 }
 
 .header .header-wrapper .left-header .header-text .paragraph-wrapper {
@@ -117,7 +117,7 @@ ul {
 }
 
 .header .header-wrapper .left-header form p {
-  color: #FC9471;
+  color: #fc9471;
   margin-bottom: 19px;
   text-align: start;
   margin: 20px 0;
@@ -132,7 +132,7 @@ ul {
   border: none;
   padding: 7px;
   border-radius: 5px;
-  background: #FFFFFF;
+  background: #ffffff;
   margin-right: 10px;
   margin-bottom: 20px;
   -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
@@ -143,7 +143,7 @@ ul {
   border: none;
   cursor: pointer;
   outline: none;
-  background-color: #4F4F4F;
+  background-color: #4f4f4f;
   border: 1px solid;
   font-size: 14px;
   padding: 14px 30px;
@@ -183,7 +183,7 @@ ul {
 }
 
 .partner-program {
-  background-color: #FC9471;
+  background-color: #fc9471;
   padding: 90px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,7 +217,7 @@ ul {
 }
 
 .partner-program .right-partner p {
-  font-size: 22px;
+  font-size: 18px;
   padding-top: 18px;
 }
 
@@ -229,10 +229,10 @@ ul {
 }
 
 .promotional-video {
-  background-color: #7FFFD4;
+  background-color: #7fffd4;
   padding: 250px 0;
   text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .promotional-video h1 {
@@ -240,7 +240,7 @@ ul {
 }
 
 .press-review {
-  background-color: #56DEED;
+  background-color: #56deed;
   padding: 150px 0;
   font-family: "Poppins", sans-serif;
 }
@@ -267,12 +267,13 @@ ul {
 .press-review .cards .card {
   width: 292px;
   height: 377px;
-  background: #FFFFFF;
+  background: #ffffff;
   -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
   margin: 0 40px;
   text-align: center;
   padding: 15px 10px;
+  border-radius: 1.25rem;
 }
 
 .press-review .cards .card img {

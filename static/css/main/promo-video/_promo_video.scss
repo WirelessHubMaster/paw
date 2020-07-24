@@ -1,0 +1,18 @@
+.promotional-video {
+    background-color: #7fffd4;
+    padding: 50px 0;
+    padding-bottom: 150px;
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-image: url("../images/promotional-video-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    //height: 100vh;
+    h1 {
+      font-size: 40px;
+      color: #333333;
+      margin-bottom: 6rem;
+    }
+  }

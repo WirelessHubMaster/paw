@@ -1,0 +1,65 @@
+.partner-program {
+    background-image: url("../images/partner-program-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: $salmonOrange;
+    padding: 220px 0;
+    display: flex;
+    font-family: $poppins;
+    .left-partner {
+      width: 55%;
+      text-align: center;
+      position: relative;
+      margin: 20px 0;
+      vertical-align: middle;
+  
+      .a {
+        position: absolute;
+        right: 15%;
+        top: -20%;
+      }
+      .b {
+        position: absolute;
+        right: 40%;
+        top: -50%;
+      }
+    }
+    .right-partner {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h1 {
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        color: #333333;
+      }
+      p {
+        font-size: 18px;
+        padding-top: 18px;
+      }
+      .paragraph {
+        font-size: 22px;
+        width: 400px;
+        line-height: 2rem;
+        padding-top: 30px;
+        .partner-program-btn {
+          font-size: 14px;
+          letter-spacing: 2px;
+          margin-top: 30px;
+          line-height: 27px;
+          text-align: center;
+          padding: 5px 15px;
+          outline: none;
+          border: none;
+          color: #ffffff;
+          background: #4f4f4f;
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+          border-radius: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+  }

@@ -1,0 +1,26 @@
+{
+  "name": "paw",
+  "version": "1.0.0",
+  "description": "This is a private account",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prashantrayamajhi/paw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prashantrayamajhi/paw/issues"
+  },
+  "homepage": "https://github.com/prashantrayamajhi/paw#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.10",
+    "nodemon": "^2.0.4"
+  }
+}

@@ -22,31 +22,11 @@
   </head>
   <body>
     <header class="header">
-      <nav class="navbar">
-        <div class="logo">
-          <img src="static/images/logo.png" />
-          <div class="logo-text">
-            <h1 class="paw">Paw</h1>
-            <h1 class="parent">Parent</h1>
-          </div>
-        </div>
-        <ul class="nav-list" id="nav-list">
-          <li><a href="index.html#header">Home</a></li>
-          <li><a href="index.html#promotional-video">Demo</a></li>
-          <li><a href="index.html#press-review">Reviews</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-          <div id="cross">
-            <i class="fa fa-times cross"></i>
-          </div>
-        </ul>
-
-        <div class="bars" id="bars">
-          <i class="fa fa-bars"></i>
-        </div>
-      </nav>
+      <%- include('navbar.ejs') -%>
     </header>
     <section class="contact">
-      <form class="contact-form">
+      <form class="contact-form" method="POST" action="/contact">
+        <input type="hidden" name="_csrf" value="<%= csrfToken %>">
         <h1>Contact Us</h1>
         <p>Want to get in touch? We'd love to hear from you!</p>
         <div class="form-wrapper">

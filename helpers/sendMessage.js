@@ -51,7 +51,7 @@ function sendSubscriptionMail(email){
         to: emailService,
         subject: "Subcription mail from customer",
         generateTextFromHTML: true,
-        html: `<b>Subscription email</b>\n<p>This is a supscription mail from ${email}</p>`
+        html: `<b>Subscription email</b><p>This is a supscription mail from ${email}</p>`
     };
     
     smtpTransport.sendMail(mailOptions, (error, response) => {
@@ -68,7 +68,7 @@ function sendContactMail(name, email, message, subject){
         to: emailService,
         subject: subject,
         generateTextFromHTML: true,
-        html: `<h2>Name: </h2>\n${name}\n<p>${message}</p>`
+        html: `<h2>Name:</h2><p>${name}</p><h2>Message:</h2><p>${message}</p>`
     };
     
     smtpTransport.sendMail(mailOptions, (error, response) => {

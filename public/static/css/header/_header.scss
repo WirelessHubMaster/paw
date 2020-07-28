@@ -1,15 +1,20 @@
 .header {
   font-family: $poppins;
   background-color: #ddfba9;
+  margin: auto;
 }
 
 .header .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
   background-color: #fff;
-  padding: 18px 10px;
+  .navbar-nav {
+    max-width: 1340px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 18px 5%;
+  }
 }
 
 .header .navbar .logo {
@@ -17,16 +22,19 @@
   height: 65px;
   margin-left: 15px;
   display: flex;
+
   .logo-text {
     color: $salmonOrange;
     display: flex;
     flex-direction: column;
     align-items: center;
+
     .paw {
       font-weight: 400;
       margin-bottom: -20px;
       font-size: 28px;
     }
+
     .parent {
       font-weight: 600;
       font-size: 35px;
@@ -62,6 +70,7 @@
         display: none;
       }
     }
+
     .bars {
       font-size: 30px;
       color: $salmonOrange;
@@ -72,15 +81,20 @@
 
 .header {
   .header-wrapper {
-    padding: 90px 0;
+    padding: 90px 5%;
     display: flex;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1340px;
     .left-header {
-      width: 55%;
+      //width: 55%;
       text-align: center;
+
       .header-text {
-        width: 70%;
+        //width: 70%;
         margin: auto;
         text-align: start;
+
         h1 {
           font-family: Poppins;
           font-style: normal;
@@ -89,10 +103,12 @@
           line-height: 97px;
           color: $salmonOrange;
         }
+
         .paragraph-wrapper {
           width: 100%;
           margin: auto;
           margin-top: 30px;
+
           p {
             text-align: start;
             line-height: 2rem;
@@ -108,9 +124,10 @@
 
 .header .header-wrapper .left-header form {
   margin-top: 45px;
-  width: 70%;
+  //width: 70%;
   margin: auto;
   text-align: start;
+
   p {
     color: $salmonOrange;
     margin-bottom: 19px;
@@ -156,16 +173,19 @@
   .header-wrapper {
     .left-header {
       .badges {
-        width: 76%;
+        //width: 76%;
+        position: relative;
+        right: 6%;
         margin: auto;
         margin-top: 20px;
         display: flex;
-
+        align-items: center;
         a {
           img {
             width: 230px;
             height: 90px;
           }
+
           .appstore {
             height: 93px;
             width: 245px;
@@ -180,14 +200,16 @@
   position: relative;
   width: 45%;
   text-align: center;
+
   .a {
     position: absolute;
-    left: 0;
+    right: 27%;
     top: 5%;
   }
+
   .b {
     position: absolute;
-    left: 27%;
+    right: 0%;
     top: -10%;
   }
 }
@@ -197,20 +219,24 @@
     .navbar {
       height: 10vh;
     }
+
     .header-wrapper {
       .left-header {
         width: 60%;
+
         .header-text {
           h1 {
             font-size: 40px;
           }
         }
+
         .badges {
           margin-top: 20px !important;
           width: 74%;
           margin: auto;
         }
       }
+
       .right-header {
         width: 40%;
       }

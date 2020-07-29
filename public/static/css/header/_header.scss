@@ -198,7 +198,8 @@
 
 .header .header-wrapper .right-header {
   position: relative;
-  width: 45%;
+  max-width: 45%;
+  width: 100%;
   text-align: center;
 
   .a {

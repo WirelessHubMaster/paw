@@ -2,66 +2,85 @@ footer {
   font-family: $poppins;
   background-color: #ddfba9;
   padding: 80px 120px;
-  display: flex;
-  justify-content: space-between;
-  .left {
+
+  .main-footer {
+    max-width: 1340px;
+    padding: 0 5%;
+    margin: auto;
     display: flex;
-    flex-direction: column;
-    .footer-img {
+    justify-content: space-between;
+    background-color: #ddfba9;
+    .left {
       display: flex;
       flex-direction: column;
-      width: 70%;
-      align-items: center;
-      justify-content: center;
-      .logo {
-        width: 50%;
-      }
-      .logo-text {
-        color: $salmonOrange;
+
+      .footer-img {
         display: flex;
         flex-direction: column;
+        width: 70%;
         align-items: center;
-        .paw {
-          font-weight: 500;
-          margin-top: -5px;
-          margin-bottom: -25px;
-          font-size: 30px;
+        justify-content: center;
+
+        .logo {
+          width: 50%;
         }
-        .parent {
-          font-weight: 700;
-          font-size: 37px;
-          width: 100%;
+
+        .logo-text {
+          color: $salmonOrange;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          .paw {
+            font-weight: 500;
+            margin-top: -5px;
+            margin-bottom: -25px;
+            font-size: 30px;
+          }
+
+          .parent {
+            font-weight: 700;
+            font-size: 37px;
+            width: 100%;
+          }
         }
       }
-    }
-    a {
-      text-decoration: none;
-      letter-spacing: 1px;
-      margin-top: 10px;
-    }
-    .social-media {
-      display: flex;
-      margin-top: 20px;
+
       a {
-        width: 40px;
-        height: 40px;
-        margin-right: 10px;
-        cursor: pointer;
+        text-decoration: none;
+        letter-spacing: 1px;
+        margin-top: 10px;
+      }
+
+      .social-media {
+        display: flex;
+        margin-top: 20px;
+
+        a {
+          width: 40px;
+          height: 40px;
+          margin-right: 10px;
+          cursor: pointer;
+        }
       }
     }
-  }
-  .right {
-    color: #333333;
-    h1 {
-      font-weight: 400;
-      margin-bottom: 20px;
-    }
-    img {
-      width: 80%;
-      height: 70%;
+
+    .right {
+      color: #333333;
+
+      h1 {
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+
+      img {
+        width: 80%;
+        height: 70%;
+      }
     }
   }
 }
+
 .main-footer {
   background-color: #333333;
   text-align: center;
@@ -69,6 +88,7 @@ footer {
   color: #ffffff;
   padding: 25px 0;
   padding-top: 35px;
+
   p {
     font-weight: 400;
   }

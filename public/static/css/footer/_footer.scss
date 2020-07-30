@@ -1,6 +1,6 @@
 footer {
   font-family: $poppins;
-  background-color: #ddfba9;
+  background-color: #2A3133;
   padding: 80px 120px;
 
   .main-footer {
@@ -9,7 +9,7 @@ footer {
     margin: auto;
     display: flex;
     justify-content: space-between;
-    background-color: #ddfba9;
+    background-color: #2A3133;
     .left {
       display: flex;
       flex-direction: column;
@@ -50,6 +50,7 @@ footer {
         text-decoration: none;
         letter-spacing: 1px;
         margin-top: 10px;
+        color: #F69372;
       }
 
       .social-media {
@@ -61,12 +62,13 @@ footer {
           height: 40px;
           margin-right: 10px;
           cursor: pointer;
+          color: #F69372;
         }
       }
     }
 
     .right {
-      color: #333333;
+      color: #F69372;
 
       h1 {
         font-weight: 400;
@@ -82,7 +84,7 @@ footer {
 }
 
 .main-footer {
-  background-color: #333333;
+  background-color: #2A3133;
   text-align: center;
   font-family: $poppins;
   color: #ffffff;
